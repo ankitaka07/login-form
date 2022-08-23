@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.formbox {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: aliceblue;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.btnbox {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 10px rgb(253, 124, 76);
+    border-radius: 30px;
+}
+
+#btn1 {
+    top: 0px;
+    left: 0;
+    position: absolute; 
+    width: 110px;
+    height: 35px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+.btn {
+    top: 0;
+    left: 0;
+    padding: 10px 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+
+.social{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+img{
+    border-radius: 50%;
+    padding: 3px 8px;
+}
+.ig{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    
+}
+
+.inputfield{
+    width: 100%;
+    padding: 13px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background: transparent;
+
+}
+.subbtn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px
+}
+.checkbox{
+    margin: 30px 10px;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 89px;
+    position: absolute;
+}
+#login{
+    left: 58px;
+}
+#register{
+   left: 450px;
+}
+
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transition:rotate(360deg);
+    }
+}
+.i{
+    animation: rotate 1s infinite;
+    display: flex;
+    justify-content: center;
+    transform: rotate(360deg);
+}
